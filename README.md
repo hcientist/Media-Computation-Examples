@@ -1,0 +1,2 @@
+#Media Computation Examples#
+This repository contains code used as in or out of class examples for Virginia Tech's Spring 2012 offering of CS 1124 Introduction to Media Computation. The course's original design and inspiration are Mark Guzdial and Barbara Ericson's [Media Computation](http://coweb.cc.gatech.edu/mediaComp-teach).
