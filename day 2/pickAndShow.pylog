@@ -1,0 +1,20 @@
+<file_created time="Mon Jan 23 08:40:31 EST 2012">
+<menu_button time="Mon Jan 23 08:40:42 EST 2012">Options</menu_button>
+<menu_button time="Mon Jan 23 08:40:57 EST 2012">Options</menu_button>
+<menu_button time="Mon Jan 23 08:56:52 EST 2012">Options</menu_button>
+<command_run time="Mon Jan 23 09:45:02 EST 2012">f = pickAFile()></command_run>
+<command_run time="Mon Jan 23 09:45:17 EST 2012">p = makePicture(f)></command_run>
+<command_run time="Mon Jan 23 09:45:17 EST 2012">></command_run>
+<command_run time="Mon Jan 23 09:45:20 EST 2012">show(p)></command_run>
+<menu_button time="Mon Jan 23 09:46:10 EST 2012">Load Program</menu_button>
+<file_saved time="Mon Jan 23 09:46:37 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 2/pickAndShow.py</file_saved>
+</file_created>
+<menu_button time="Mon Jan 23 09:46:57 EST 2012">Load Program</menu_button>
+<file_saved time="Mon Jan 23 09:46:58 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 2/pickAndShow.py</file_saved>
+</file_created>
+<menu_button time="Mon Jan 23 09:47:06 EST 2012">Load Program</menu_button>
+<file_saved time="Mon Jan 23 09:47:07 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 2/pickAndShow.py</file_saved>
+</file_created>
+<menu_button time="Mon Jan 23 09:48:11 EST 2012">Load Program</menu_button>
+<file_saved time="Mon Jan 23 09:48:12 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 2/pickAndShow.py</file_saved>
+</file_created>
