@@ -18,3 +18,57 @@
 <menu_button time="Mon Jan 23 09:48:11 EST 2012">Load Program</menu_button>
 <file_saved time="Mon Jan 23 09:48:12 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 2/pickAndShow.py</file_saved>
 </file_created>
+<command_run time="Mon Jan 23 09:48:27 EST 2012">pickAndShow></command_run>
+<menu_button time="Mon Jan 23 09:50:23 EST 2012">pickAFile</menu_button>
+<menu_button time="Mon Jan 23 09:50:54 EST 2012">Undo</menu_button>
+<command_run time="Mon Jan 23 09:50:59 EST 2012">pickAndShow()></command_run>
+<command_run time="Mon Jan 23 09:51:49 EST 2012">2+3></command_run>
+<command_run time="Mon Jan 23 09:51:58 EST 2012">2+3/4></command_run>
+<command_run time="Mon Jan 23 09:52:10 EST 2012">1/2></command_run>
+<command_run time="Mon Jan 23 09:52:43 EST 2012">1.0/2></command_run>
+<command_run time="Mon Jan 23 09:53:13 EST 2012">float(1)/2></command_run>
+<command_run time="Mon Jan 23 09:53:33 EST 2012">clear></command_run>
+<command_run time="Mon Jan 23 09:53:39 EST 2012">></command_run>
+<command_run time="Mon Jan 23 09:53:39 EST 2012">></command_run>
+<command_run time="Mon Jan 23 09:53:39 EST 2012">></command_run>
+<command_run time="Mon Jan 23 09:53:40 EST 2012">></command_run>
+<command_run time="Mon Jan 23 09:53:40 EST 2012">></command_run>
+<command_run time="Mon Jan 23 09:53:40 EST 2012">></command_run>
+<command_run time="Mon Jan 23 09:53:40 EST 2012">></command_run>
+<command_run time="Mon Jan 23 11:57:23 EST 2012">c = pickAColor()></command_run>
+<command_run time="Mon Jan 23 11:57:28 EST 2012">c></command_run>
+<command_run time="Mon Jan 23 11:57:34 EST 2012">getRed(c)></command_run>
+<command_run time="Mon Jan 23 11:57:40 EST 2012">c.getRed()></command_run>
+<command_run time="Mon Jan 23 11:59:34 EST 2012">getColorWrapAx=1></command_run>
+<command_run time="Mon Jan 23 11:59:36 EST 2012">x=1></command_run>
+<command_run time="Mon Jan 23 11:59:37 EST 2012">></command_run>
+<command_run time="Mon Jan 23 11:59:38 EST 2012">x></command_run>
+<command_run time="Mon Jan 23 11:59:41 EST 2012">x+=1></command_run>
+<command_run time="Mon Jan 23 11:59:42 EST 2012">x></command_run>
+<menu_button time="Mon Jan 23 12:00:44 EST 2012">Explain setRed</menu_button>
+<menu_button time="Mon Jan 23 12:03:48 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:48 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:48 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:48 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:49 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:49 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:49 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:49 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:49 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:49 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:49 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:50 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:50 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:51 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:51 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:51 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:51 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:52 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:52 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:03:53 EST 2012">Undo</menu_button>
+<menu_button time="Mon Jan 23 12:04:39 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Jan 23 12:04:39 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 2/pickAndShow.py</file_saved>
+</file_created>
+<menu_button time="Mon Jan 23 12:05:14 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Jan 23 12:05:14 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 2/pickAndShow.py</file_saved>
+</file_created>
