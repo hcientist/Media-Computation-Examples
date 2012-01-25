@@ -5,3 +5,95 @@
 <menu_button time="Wed Jan 25 08:45:28 EST 2012">Save Program</menu_button>
 <file_saved time="Wed Jan 25 08:45:28 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
 </file_created>
+<menu_button time="Wed Jan 25 08:52:11 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Jan 25 08:52:11 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
+</file_created>
+<command_run time="Wed Jan 25 09:12:07 EST 2012">x = 0></command_run>
+<command_run time="Wed Jan 25 09:12:16 EST 2012">print x></command_run>
+<command_run time="Wed Jan 25 09:12:27 EST 2012">y = 1.0></command_run>
+<command_run time="Wed Jan 25 09:12:30 EST 2012">print y></command_run>
+<command_run time="Wed Jan 25 09:12:52 EST 2012">x></command_run>
+<command_run time="Wed Jan 25 09:14:27 EST 2012">myName = 'Michael'></command_run>
+<command_run time="Wed Jan 25 09:14:30 EST 2012">myName></command_run>
+<command_run time="Wed Jan 25 09:14:44 EST 2012">wednesday = True></command_run>
+<command_run time="Wed Jan 25 09:15:51 EST 2012">whoseIsIt = 'MIchael's'></command_run>
+<command_run time="Wed Jan 25 09:16:17 EST 2012">whoseIsIt = "Michael's"></command_run>
+<command_run time="Wed Jan 25 09:16:22 EST 2012">whoseIsIt></command_run>
+<command_run time="Wed Jan 25 09:17:43 EST 2012">quizGrades = [95,90,100,100]></command_run>
+<command_run time="Wed Jan 25 09:18:58 EST 2012">x +1></command_run>
+<command_run time="Wed Jan 25 09:19:24 EST 2012">quizGrades + 1></command_run>
+<command_run time="Wed Jan 25 09:19:53 EST 2012">quizGrades[0]></command_run>
+<command_run time="Wed Jan 25 09:20:00 EST 2012">quizGrades[1]></command_run>
+<command_run time="Wed Jan 25 09:21:05 EST 2012">quizGrades[0] + 1></command_run>
+<command_run time="Wed Jan 25 09:21:18 EST 2012">quizGrades[0]></command_run>
+<command_run time="Wed Jan 25 09:22:24 EST 2012">quizGrades[0] = 96></command_run>
+<command_run time="Wed Jan 25 09:22:26 EST 2012">quizGrades[0]></command_run>
+<command_run time="Wed Jan 25 09:23:42 EST 2012">quizGrades[0] = quizGrades[0] + 1></command_run>
+<command_run time="Wed Jan 25 09:23:53 EST 2012">quizGrades[0]></command_run>
+<menu_button time="Wed Jan 25 09:26:58 EST 2012">Undo</menu_button>
+<menu_button time="Wed Jan 25 09:26:58 EST 2012">Undo</menu_button>
+<menu_button time="Wed Jan 25 09:26:59 EST 2012">Undo</menu_button>
+<menu_button time="Wed Jan 25 09:27:42 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Jan 25 09:27:42 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
+</file_created>
+<menu_button time="Wed Jan 25 09:27:46 EST 2012">Load Program</menu_button>
+<command_run time="Wed Jan 25 09:27:55 EST 2012">average(a,b,c)></command_run>
+<command_run time="Wed Jan 25 09:28:58 EST 2012">average(10,20,30)></command_run>
+<menu_button time="Wed Jan 25 09:29:18 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Jan 25 09:29:18 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
+</file_created>
+<command_run time="Wed Jan 25 09:29:31 EST 2012">quotient(10,20,30)></command_run>
+<menu_button time="Wed Jan 25 09:29:35 EST 2012">Load Program</menu_button>
+<command_run time="Wed Jan 25 09:29:36 EST 2012">quotient(10,20,30)></command_run>
+<menu_button time="Wed Jan 25 09:31:47 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Jan 25 09:31:47 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
+</file_created>
+<menu_button time="Wed Jan 25 09:32:16 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Jan 25 09:32:16 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
+</file_created>
+<menu_button time="Wed Jan 25 09:35:20 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Jan 25 09:35:20 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
+</file_created>
+<menu_button time="Wed Jan 25 09:35:23 EST 2012">Load Program</menu_button>
+<command_run time="Wed Jan 25 09:35:32 EST 2012">average3(10,20,30)></command_run>
+<command_run time="Wed Jan 25 09:36:02 EST 2012">x = 10></command_run>
+<command_run time="Wed Jan 25 09:36:04 EST 2012">y = 20></command_run>
+<command_run time="Wed Jan 25 09:36:06 EST 2012">z = 30></command_run>
+<command_run time="Wed Jan 25 09:36:12 EST 2012">average3(x,y,z)></command_run>
+<menu_button time="Wed Jan 25 09:38:19 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Jan 25 09:38:19 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
+</file_created>
+<menu_button time="Wed Jan 25 09:38:20 EST 2012">Load Program</menu_button>
+<command_run time="Wed Jan 25 09:38:27 EST 2012">noInputAvg()></command_run>
+<menu_button time="Wed Jan 25 09:38:45 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Jan 25 09:38:45 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
+</file_created>
+<menu_button time="Wed Jan 25 09:39:02 EST 2012">Load Program</menu_button>
+<command_run time="Wed Jan 25 09:39:10 EST 2012">average3(10,20,30)></command_run>
+<command_run time="Wed Jan 25 09:39:25 EST 2012">noInputAvg()></command_run>
+<menu_button time="Wed Jan 25 09:40:19 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Jan 25 09:40:19 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
+</file_created>
+<menu_button time="Wed Jan 25 09:40:19 EST 2012">Load Program</menu_button>
+<menu_button time="Wed Jan 25 09:45:05 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Jan 25 09:45:05 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
+</file_created>
+<menu_button time="Wed Jan 25 09:45:06 EST 2012">Load Program</menu_button>
+<command_run time="Wed Jan 25 09:45:19 EST 2012">manyValues = [4,8]></command_run>
+<command_run time="Wed Jan 25 09:45:27 EST 2012">average(manyValues)></command_run>
+<command_run time="Wed Jan 25 09:45:39 EST 2012">manyValues = [4]></command_run>
+<command_run time="Wed Jan 25 09:46:26 EST 2012">average(manyValues)></command_run>
+<command_run time="Wed Jan 25 09:48:00 EST 2012">range(5)></command_run>
+<command_run time="Wed Jan 25 09:48:12 EST 2012">len(manyValues)></command_run>
+<menu_button time="Wed Jan 25 09:50:40 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Jan 25 09:50:40 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
+</file_created>
+<menu_button time="Wed Jan 25 09:50:41 EST 2012">Load Program</menu_button>
+<menu_button time="Wed Jan 25 09:56:25 EST 2012">Load Program</menu_button>
+<file_saved time="Wed Jan 25 09:56:27 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
+</file_created>
+<command_run time="Wed Jan 25 09:56:48 EST 2012">average ( 4,8,1,9,36,7,4,8,1,9,36,7,4,8,1,9,36,7,4,8,1,9,36,7,4,8,1,9,36,7,4,8,1,9,36,7)></command_run>
+<command_run time="Wed Jan 25 09:56:59 EST 2012">average ([ 4,8,1,9,36,7,4,8,1,9,36,7,4,8,1,9,36,7,4,8,1,9,36,7,4,8,1,9,36,7,4,8,1,9,36,7])></command_run>
+<menu_button time="Wed Jan 25 09:58:51 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Jan 25 09:58:51 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/day 3 - JES Day/commentsAndVariablesOhMy.py</file_saved>
+</file_created>
