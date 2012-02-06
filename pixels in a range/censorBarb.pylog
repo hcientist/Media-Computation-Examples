@@ -5,4 +5,35 @@
 <command_run time="Mon Feb 06 02:03:57 EST 2012">censorBarb()></command_run>
 <menu_button time="Mon Feb 06 02:09:32 EST 2012">Save Program</menu_button>
 <file_saved time="Mon Feb 06 02:09:32 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/pixels in a range/censorBarb.py</file_saved>
+<file_opened time="Mon Feb 06 02:14:49 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/pixels in a range/censorBarb.py</file_opened>
+<menu_button time="Mon Feb 06 02:14:52 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 06 02:14:59 EST 2012">censorBarb()></command_run>
+<command_run time="Mon Feb 06 09:16:36 EST 2012">range (3)></command_run>
+<command_run time="Mon Feb 06 09:16:50 EST 2012">range (1,3)></command_run>
+<command_run time="Mon Feb 06 09:17:34 EST 2012">range (0,101, 10)></command_run>
+<command_run time="Mon Feb 06 09:19:03 EST 2012">pic = makePicture(pickAFile())></command_run>
+<command_run time="Mon Feb 06 09:19:11 EST 2012">show(pic)></command_run>
+<command_run time="Mon Feb 06 09:19:57 EST 2012">range(getWidth(pic))></command_run>
+<command_run time="Mon Feb 06 09:21:07 EST 2012">for x in range(getWidth(pic)):
+  setColor(getPixelAt(x,0), black)></command_run>
+<command_run time="Mon Feb 06 09:21:22 EST 2012">for x in range(getWidth(pic)):
+  setColor(getPixelAt(pic,x,0), black)></command_run>
+<command_run time="Mon Feb 06 09:21:30 EST 2012">repaint(pic)></command_run>
+<command_run time="Mon Feb 06 09:23:23 EST 2012">for y in range(getHeight(pic)):
+  setColor(getPixelAt(pic,0,y), red)></command_run>
+<command_run time="Mon Feb 06 09:23:46 EST 2012">repaint(pic)></command_run>
+<menu_button time="Mon Feb 06 09:25:39 EST 2012">makeDarker</menu_button>
+<command_run time="Mon Feb 06 09:27:26 EST 2012">for x in range(getWidth(pic)):
+  for y in range(getHeight(pic)):
+    setColor(getPixelAt(pic,x,y),makeDarker(getColor(getPixelAt(pic,x,y)))
+    repaint(pic)></command_run>
+<menu_button time="Mon Feb 06 09:29:08 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 06 09:29:08 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/pixels in a range/censorBarb.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 06 09:29:09 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 06 09:29:19 EST 2012">pic = makePicture(pickAFile())></command_run>
+<command_run time="Mon Feb 06 09:29:36 EST 2012">show(pic)></command_run>
+<command_run time="Mon Feb 06 09:29:53 EST 2012">darken(pic)></command_run>
+<menu_button time="Mon Feb 06 09:33:10 EST 2012">Load Program</menu_button>
+<file_saved time="Mon Feb 06 09:33:10 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/pixels in a range/censorBarb.py</file_saved>
 </file_created>
