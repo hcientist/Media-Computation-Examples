@@ -1,0 +1,1 @@
+These media sources are from [the Media Computation Teachers website](http://www.cc.gatech.edu/~mark.guzdial/mediacomp/mediasources-py2ed.zip).
