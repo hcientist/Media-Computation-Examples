@@ -37,3 +37,9 @@
 <menu_button time="Mon Feb 06 09:33:10 EST 2012">Load Program</menu_button>
 <file_saved time="Mon Feb 06 09:33:10 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/pixels in a range/censorBarb.py</file_saved>
 </file_created>
+<command_run time="Mon Feb 06 09:33:26 EST 2012">lighten(pic)></command_run>
+<menu_button time="Mon Feb 06 09:35:53 EST 2012">Picture Tool...</menu_button>
+<command_run time="Mon Feb 06 09:39:14 EST 2012">censorBarb()></command_run>
+<menu_button time="Mon Feb 06 09:42:53 EST 2012">Load Program</menu_button>
+<file_saved time="Mon Feb 06 09:42:54 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/pixels in a range/censorBarb.py</file_saved>
+</file_created>
