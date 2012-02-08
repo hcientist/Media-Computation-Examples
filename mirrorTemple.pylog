@@ -16,3 +16,70 @@
 <menu_button time="Wed Feb 08 09:17:18 EST 2012">Save Program</menu_button>
 <file_saved time="Wed Feb 08 09:17:18 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/mirrorTemple.py</file_saved>
 </file_created>
+<menu_button time="Wed Feb 08 09:17:19 EST 2012">Load Program</menu_button>
+<command_run time="Wed Feb 08 09:17:20 EST 2012">mirrorTemple()></command_run>
+<menu_button time="Wed Feb 08 09:24:03 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Feb 08 09:24:03 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/mirrorTemple.py</file_saved>
+</file_created>
+<menu_button time="Wed Feb 08 09:24:04 EST 2012">Load Program</menu_button>
+<command_run time="Wed Feb 08 09:24:06 EST 2012">mirrorTemple()></command_run>
+<menu_button time="Wed Feb 08 09:24:15 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Feb 08 09:24:15 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/mirrorTemple.py</file_saved>
+</file_created>
+<menu_button time="Wed Feb 08 09:24:22 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Feb 08 09:24:22 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/mirrorTemple.py</file_saved>
+</file_created>
+<menu_button time="Wed Feb 08 09:24:24 EST 2012">Load Program</menu_button>
+<command_run time="Wed Feb 08 09:24:44 EST 2012">mirrorTemple()></command_run>
+<menu_button time="Wed Feb 08 09:26:36 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Feb 08 09:26:36 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/mirrorTemple.py</file_saved>
+</file_created>
+<menu_button time="Wed Feb 08 09:26:36 EST 2012">Load Program</menu_button>
+<command_run time="Wed Feb 08 09:26:37 EST 2012">mirrorTemple()></command_run>
+<menu_button time="Wed Feb 08 09:27:11 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Feb 08 09:27:11 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/mirrorTemple.py</file_saved>
+</file_created>
+<command_run time="Wed Feb 08 09:28:06 EST 2012">range(27,97)></command_run>
+<menu_button time="Wed Feb 08 09:30:40 EST 2012">makeEmptyPicture</menu_button>
+<menu_button time="Wed Feb 08 09:42:22 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Feb 08 09:42:22 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/mirrorTemple.py</file_saved>
+</file_created>
+<menu_button time="Wed Feb 08 09:42:23 EST 2012">Load Program</menu_button>
+<command_run time="Wed Feb 08 09:42:30 EST 2012">copyBarb()></command_run>
+<menu_button time="Wed Feb 08 09:43:14 EST 2012">addRect</menu_button>
+<menu_button time="Wed Feb 08 09:43:19 EST 2012">copyInto</menu_button>
+<menu_button time="Wed Feb 08 09:44:31 EST 2012">Program Area + Interactions Area</menu_button>
+<command_run time="Wed Feb 08 09:45:40 EST 2012">newGiantPictureBarb = copyBarb()></command_run>
+<command_run time="Wed Feb 08 09:45:54 EST 2012">newGiantPictureBarb></command_run>
+<menu_button time="Wed Feb 08 09:46:12 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Feb 08 09:46:12 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/mirrorTemple.py</file_saved>
+</file_created>
+<menu_button time="Wed Feb 08 09:46:14 EST 2012">Load Program</menu_button>
+<command_run time="Wed Feb 08 09:46:18 EST 2012">copyBarb()></command_run>
+<command_run time="Wed Feb 08 09:47:00 EST 2012">newGiantPictureBarb = None></command_run>
+<command_run time="Wed Feb 08 09:47:04 EST 2012">newGiantPictureBarb></command_run>
+<command_run time="Wed Feb 08 09:47:13 EST 2012">newGiantPictureBarb = copyBarb()></command_run>
+<command_run time="Wed Feb 08 09:47:31 EST 2012">newGiantPictureBarb></command_run>
+<menu_button time="Wed Feb 08 09:48:14 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Feb 08 09:48:14 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/mirrorTemple.py</file_saved>
+</file_created>
+<menu_button time="Wed Feb 08 09:48:14 EST 2012">Load Program</menu_button>
+<command_run time="Wed Feb 08 09:48:16 EST 2012">newGiantPictureBarb = copyBarb()></command_run>
+<command_run time="Wed Feb 08 09:48:26 EST 2012">newGiantPictureBarb></command_run>
+<menu_button time="Wed Feb 08 09:50:14 EST 2012">Undo</menu_button>
+<menu_button time="Wed Feb 08 09:50:14 EST 2012">Undo</menu_button>
+<menu_button time="Wed Feb 08 09:50:14 EST 2012">Undo</menu_button>
+<menu_button time="Wed Feb 08 09:50:14 EST 2012">Undo</menu_button>
+<menu_button time="Wed Feb 08 09:50:31 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Feb 08 09:50:31 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/mirrorTemple.py</file_saved>
+</file_created>
+<menu_button time="Wed Feb 08 09:50:32 EST 2012">Load Program</menu_button>
+<command_run time="Wed Feb 08 09:50:38 EST 2012">driver()></command_run>
+<menu_button time="Wed Feb 08 09:50:47 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Feb 08 09:50:47 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/mirrorTemple.py</file_saved>
+</file_created>
+<menu_button time="Wed Feb 08 09:50:48 EST 2012">Load Program</menu_button>
+<command_run time="Wed Feb 08 09:50:49 EST 2012">driver()></command_run>
+<menu_button time="Wed Feb 08 09:55:15 EST 2012">Save Program</menu_button>
+<file_saved time="Wed Feb 08 09:55:15 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/mirrorTemple.py</file_saved>
+</file_created>
