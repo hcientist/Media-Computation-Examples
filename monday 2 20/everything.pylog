@@ -1,0 +1,44 @@
+<file_created time="Mon Feb 20 09:00:23 EST 2012">
+<menu_button time="Mon Feb 20 09:22:47 EST 2012">Explain makeEmptyPicture</menu_button>
+<menu_button time="Mon Feb 20 09:23:46 EST 2012">Program Area + Interactions Area</menu_button>
+<menu_button time="Mon Feb 20 09:28:46 EST 2012">Undo</menu_button>
+<menu_button time="Mon Feb 20 09:28:46 EST 2012">Undo</menu_button>
+<menu_button time="Mon Feb 20 09:28:46 EST 2012">Undo</menu_button>
+<menu_button time="Mon Feb 20 09:28:46 EST 2012">Undo</menu_button>
+<menu_button time="Mon Feb 20 09:28:47 EST 2012">Undo</menu_button>
+<menu_button time="Mon Feb 20 09:28:47 EST 2012">Undo</menu_button>
+<menu_button time="Mon Feb 20 09:28:47 EST 2012">Undo</menu_button>
+<menu_button time="Mon Feb 20 09:28:47 EST 2012">Undo</menu_button>
+<menu_button time="Mon Feb 20 09:28:47 EST 2012">Undo</menu_button>
+<menu_button time="Mon Feb 20 09:28:47 EST 2012">Undo</menu_button>
+<menu_button time="Mon Feb 20 09:28:48 EST 2012">Undo</menu_button>
+<menu_button time="Mon Feb 20 09:28:48 EST 2012">Undo</menu_button>
+<menu_button time="Mon Feb 20 09:33:24 EST 2012">Undo</menu_button>
+<menu_button time="Mon Feb 20 09:33:51 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 20 09:34:14 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/monday 2 20/everything.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 20 09:34:17 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 20 09:34:42 EST 2012">show(reflectImage(makePicture(pickAFile())))></command_run>
+<menu_button time="Mon Feb 20 09:37:11 EST 2012">Load Program</menu_button>
+<file_saved time="Mon Feb 20 09:37:12 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/monday 2 20/everything.py</file_saved>
+</file_created>
+<command_run time="Mon Feb 20 09:37:14 EST 2012">show(reflectImage(makePicture(pickAFile())))></command_run>
+<menu_button time="Mon Feb 20 09:37:50 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 20 09:37:50 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/monday 2 20/everything.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 20 09:37:51 EST 2012">Load Program</menu_button>
+<menu_button time="Mon Feb 20 09:37:51 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 20 09:37:52 EST 2012">show(reflectImage(makePicture(pickAFile())))></command_run>
+<menu_button time="Mon Feb 20 09:38:08 EST 2012">Load Program</menu_button>
+<file_saved time="Mon Feb 20 09:38:09 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/monday 2 20/everything.py</file_saved>
+</file_created>
+<command_run time="Mon Feb 20 09:38:11 EST 2012">show(reflectImage(makePicture(pickAFile())))></command_run>
+<command_run time="Mon Feb 20 09:38:48 EST 2012">show(makePicture(pickAFile()))></command_run>
+<menu_button time="Mon Feb 20 09:40:47 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 20 09:40:47 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/monday 2 20/everything.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 20 09:40:49 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 20 09:43:23 EST 2012">show(reflectImage(makePicture(pickAFile())))></command_run>
+<menu_button time="Mon Feb 20 09:47:23 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 20 09:47:23 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/monday 2 20/everything.py</file_saved>
+</file_created>

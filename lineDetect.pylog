@@ -1,0 +1,23 @@
+<file_created time="Mon Feb 13 13:51:54 EST 2012">
+<Could not find /Users/tgm/cs-1124/Media-Computation-Examples/lineDetect.pylog, creating a new logfile>
+<menu_button time="Mon Feb 13 13:52:06 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 13 13:52:06 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/lineDetect.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 13 13:52:09 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 13 13:52:13 EST 2012">show(tgm)></command_run>
+<command_run time="Mon Feb 13 13:52:22 EST 2012">show(lineDetect(tgm))></command_run>
+<command_run time="Mon Feb 13 13:52:41 EST 2012">show(lineDetect(getMediaPath('tgm.jpg')))></command_run>
+<menu_button time="Mon Feb 13 13:53:03 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 13 13:53:03 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/lineDetect.py</file_saved>
+</file_created>
+<command_run time="Mon Feb 13 13:53:06 EST 2012">show(lineDetect(getMediaPath('tgm.jpg')))></command_run>
+<menu_button time="Mon Feb 13 13:53:33 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 13 13:53:35 EST 2012">show(lineDetect(getMediaPath('tgm.jpg')))></command_run>
+<menu_button time="Mon Feb 13 13:53:56 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 13 13:53:56 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/lineDetect.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 13 13:53:57 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 13 13:53:57 EST 2012">show(lineDetect(getMediaPath('tgm.jpg')))></command_run>
+<menu_button time="Mon Feb 13 13:54:22 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 13 13:54:22 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/lineDetect.py</file_saved>
+</file_created>
