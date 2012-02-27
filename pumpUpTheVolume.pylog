@@ -1,0 +1,20 @@
+<file_created time="Sun Feb 26 22:16:25 EST 2012">
+<command_run time="Sun Feb 26 22:16:41 EST 2012">s = makeSound(pickAFile())></command_run>
+<command_run time="Sun Feb 26 22:18:08 EST 2012">s = makeSound(pickAFile())></command_run>
+<menu_button time="Sun Feb 26 22:18:18 EST 2012">Picture Tool...</menu_button>
+<menu_button time="Sun Feb 26 22:18:20 EST 2012">Sound Tool...</menu_button>
+<command_run time="Sun Feb 26 22:19:00 EST 2012">explore(s)></command_run>
+<menu_button time="Sun Feb 26 22:19:52 EST 2012">Sound Tool...</menu_button>
+<command_run time="Sun Feb 26 23:22:20 EST 2012">tsos = makeSound(getMediaPath('tsos.wav'))></command_run>
+<command_run time="Sun Feb 26 23:22:24 EST 2012">play(tsos)></command_run>
+<command_run time="Sun Feb 26 23:22:53 EST 2012">putvdd = makeSound(getMediaPath('putvdd.wav'))></command_run>
+<command_run time="Sun Feb 26 23:22:59 EST 2012">play(putvdd)></command_run>
+<command_run time="Sun Feb 26 23:23:10 EST 2012">putvdd></command_run>
+<command_run time="Sun Feb 26 23:23:19 EST 2012">getNumSamples(tsos)></command_run>
+<command_run time="Sun Feb 26 23:23:42 EST 2012">play(putvdd)></command_run>
+<command_run time="Sun Feb 26 23:23:44 EST 2012">play(putvdd)></command_run>
+<command_run time="Sun Feb 26 23:23:48 EST 2012">play(tsos)></command_run>
+<command_run time="Sun Feb 26 23:23:50 EST 2012">play(putvdd)></command_run>
+<menu_button time="Sun Feb 26 23:34:45 EST 2012">Save Program</menu_button>
+<file_saved time="Sun Feb 26 23:34:55 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/pumpUpTheVolume.py</file_saved>
+</file_created>
