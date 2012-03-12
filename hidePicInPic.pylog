@@ -72,4 +72,133 @@
 <command_run time="Sat Feb 25 16:15:16 EST 2012">repaint(wolf_in_sheep)></command_run>
 <menu_button time="Sat Feb 25 16:19:26 EST 2012">Save Program</menu_button>
 <file_saved time="Sat Feb 25 16:19:26 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+<file_opened time="Mon Feb 27 14:16:04 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_opened>
+<menu_button time="Mon Feb 27 14:16:14 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:16:29 EST 2012">michael= makePicture(pickAFile())></command_run>
+<command_run time="Mon Feb 27 14:16:34 EST 2012">michael= makePicture(pickAFile())></command_run>
+<command_run time="Mon Feb 27 14:16:41 EST 2012">show(michael)></command_run>
+<command_run time="Mon Feb 27 14:16:52 EST 2012">arch = makePicture(pickAFile())></command_run>
+<command_run time="Mon Feb 27 14:17:04 EST 2012">show(arch)></command_run>
+<command_run time="Mon Feb 27 14:17:32 EST 2012">hidden = hidePicInPic(michael,arch)></command_run>
+<command_run time="Mon Feb 27 14:17:53 EST 2012">show(hidden)></command_run>
+<menu_button time="Mon Feb 27 14:24:03 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:24:03 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:24:04 EST 2012">Load Program</menu_button>
+<menu_button time="Mon Feb 27 14:24:23 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:24:23 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:24:26 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:24:29 EST 2012">show(hidden)></command_run>
+<menu_button time="Mon Feb 27 14:24:42 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:24:42 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:24:43 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:25:00 EST 2012">unhide = getPicFromPic(hidden)></command_run>
+<menu_button time="Mon Feb 27 14:25:05 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:25:05 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:25:06 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:25:08 EST 2012">unhide = getPicFromPic(hidden)></command_run>
+<menu_button time="Mon Feb 27 14:25:37 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:25:37 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:25:38 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:25:40 EST 2012">unhide = getPicFromPic(hidden)></command_run>
+<menu_button time="Mon Feb 27 14:25:59 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:25:59 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:25:59 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:26:00 EST 2012">unhide = getPicFromPic(hidden)></command_run>
+<command_run time="Mon Feb 27 14:26:18 EST 2012">show(unhide)></command_run>
+<menu_button time="Mon Feb 27 14:26:56 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:26:56 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:26:58 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:27:03 EST 2012">show(hidden)></command_run>
+<command_run time="Mon Feb 27 14:27:09 EST 2012">unhide = getPicFromPic(hidden)></command_run>
+<command_run time="Mon Feb 27 14:27:27 EST 2012">show(unhide)></command_run>
+<menu_button time="Mon Feb 27 14:29:01 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:29:01 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:29:02 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:29:04 EST 2012">unhide = getPicFromPic(hidden)></command_run>
+<command_run time="Mon Feb 27 14:29:19 EST 2012">show(unhide)></command_run>
+<command_run time="Mon Feb 27 14:31:08 EST 2012">0b11></command_run>
+<command_run time="Mon Feb 27 14:31:13 EST 2012">bin(5)></command_run>
+<command_run time="Mon Feb 27 14:33:18 EST 2012">174%2**5*2**5></command_run>
+<command_run time="Mon Feb 27 14:33:30 EST 2012">2**5></command_run>
+<command_run time="Mon Feb 27 14:33:40 EST 2012">174%2**5></command_run>
+<command_run time="Mon Feb 27 14:34:20 EST 2012">14*32></command_run>
+<command_run time="Mon Feb 27 14:35:41 EST 2012">getMostSigBits(174,2**3)></command_run>
+<menu_button time="Mon Feb 27 14:37:05 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:37:05 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:37:08 EST 2012">Load Program</menu_button>
+<menu_button time="Mon Feb 27 14:37:14 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:37:14 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:37:15 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:38:43 EST 2012">174%2**5></command_run>
+<command_run time="Mon Feb 27 14:39:13 EST 2012">174%2**3></command_run>
+<command_run time="Mon Feb 27 14:41:44 EST 2012">1<<2></command_run>
+<command_run time="Mon Feb 27 14:41:53 EST 2012">7>>1></command_run>
+<command_run time="Mon Feb 27 14:41:56 EST 2012">7>>2></command_run>
+<command_run time="Mon Feb 27 14:42:01 EST 2012">7>>2<<2></command_run>
+<menu_button time="Mon Feb 27 14:44:24 EST 2012">Search</menu_button>
+<menu_button time="Mon Feb 27 14:44:48 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:44:48 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:44:49 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:45:07 EST 2012">getMostSigBits(174,3,8)></command_run>
+<command_run time="Mon Feb 27 14:45:47 EST 2012">174>>(1<<5)></command_run>
+<command_run time="Mon Feb 27 14:45:54 EST 2012">1<<5></command_run>
+<command_run time="Mon Feb 27 14:46:02 EST 2012">174>>32></command_run>
+<command_run time="Mon Feb 27 14:46:15 EST 2012">174>>5></command_run>
+<command_run time="Mon Feb 27 14:46:31 EST 2012">174>>5<<5></command_run>
+<menu_button time="Mon Feb 27 14:46:59 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:46:59 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:47:00 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:47:04 EST 2012">getMostSigBits(174,3,8)></command_run>
+<command_run time="Mon Feb 27 14:47:36 EST 2012">getLeastSigBits(174,5)></command_run>
+<command_run time="Mon Feb 27 14:49:03 EST 2012">getLeastSigBits(174,4)></command_run>
+<command_run time="Mon Feb 27 14:49:22 EST 2012">getLeastSigBits(7,1)></command_run>
+<menu_button time="Mon Feb 27 14:49:38 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:49:38 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:49:53 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:49:55 EST 2012">getLeastSigBits(7,1)></command_run>
+<command_run time="Mon Feb 27 14:49:58 EST 2012">getLeastSigBits(174,4)></command_run>
+<command_run time="Mon Feb 27 14:50:11 EST 2012">getLeastSigBits(174,5)></command_run>
+<command_run time="Mon Feb 27 14:50:16 EST 2012">getLeastSigBits(174,6)></command_run>
+<menu_button time="Mon Feb 27 14:50:53 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:50:53 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+<file_opened time="Mon Feb 27 14:51:52 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_opened>
+<command_run time="Mon Feb 27 14:52:14 EST 2012">michael = makePicture(getMediaPath('_tgm.jpg'))></command_run>
+<command_run time="Mon Feb 27 14:52:29 EST 2012">arch = makePicture(getMediaPath('arch.jpg'))></command_run>
+<command_run time="Mon Feb 27 14:53:52 EST 2012">hidden = hidePicInPic(michael,arch)></command_run>
+<menu_button time="Mon Feb 27 14:53:57 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:54:05 EST 2012">hidden = hidePicInPic(michael,arch)></command_run>
+<command_run time="Mon Feb 27 14:54:40 EST 2012">unhide = getPicFromPic(hidden)></command_run>
+<command_run time="Mon Feb 27 14:54:57 EST 2012">show(hidden)></command_run>
+<command_run time="Mon Feb 27 14:55:05 EST 2012">show(unhide)></command_run>
+<command_run time="Mon Feb 27 14:55:23 EST 2012">hidden = hidePicInPic(michael,arch,2)></command_run>
+<menu_button time="Mon Feb 27 14:55:49 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:55:49 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:55:50 EST 2012">Load Program</menu_button>
+<menu_button time="Mon Feb 27 14:56:47 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 14:56:47 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
+</file_created>
+<menu_button time="Mon Feb 27 14:56:48 EST 2012">Load Program</menu_button>
+<command_run time="Mon Feb 27 14:56:58 EST 2012">unhide = getPicFromPic(hidden)></command_run>
+<command_run time="Mon Feb 27 14:57:16 EST 2012">hidden = hidePicInPic(michael,arch)></command_run>
+<command_run time="Mon Feb 27 14:57:40 EST 2012">unhide = getPicFromPic(hidden)></command_run>
+<command_run time="Mon Feb 27 15:10:39 EST 2012">show(hidden)></command_run>
+<command_run time="Mon Feb 27 15:10:47 EST 2012">show(unhide)></command_run>
+<command_run time="Mon Feb 27 15:11:10 EST 2012">hidden = hidePicInPic(michael,arch,2)></command_run>
+<command_run time="Mon Feb 27 15:11:30 EST 2012">show(hidden)></command_run>
+<menu_button time="Mon Feb 27 15:12:37 EST 2012">Save Program</menu_button>
+<file_saved time="Mon Feb 27 15:12:37 EST 2012">/Users/tgm/cs-1124/Media-Computation-Examples/hidePicInPic.py</file_saved>
 </file_created>

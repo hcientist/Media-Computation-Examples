@@ -1,0 +1,18 @@
+<file_created time="Mon Mar 12 08:37:32 EDT 2012">
+<menu_button time="Mon Mar 12 08:40:14 EDT 2012">Load Program</menu_button>
+<file_saved time="Mon Mar 12 08:40:31 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/sound/increaseAndDecrease.py</file_saved>
+</file_created>
+<command_run time="Mon Mar 12 08:41:25 EDT 2012">s=makeSound(pickAFile())></command_run>
+<command_run time="Mon Mar 12 08:41:43 EDT 2012"> increaseAndDecrease(s)></command_run>
+<command_run time="Mon Mar 12 08:41:48 EDT 2012">play(s)></command_run>
+<command_run time="Mon Mar 12 08:41:56 EDT 2012">play(s)></command_run>
+<menu_button time="Mon Mar 12 08:51:17 EDT 2012">Load Program</menu_button>
+<file_saved time="Mon Mar 12 08:51:18 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/sound/increaseAndDecrease.py</file_saved>
+</file_created>
+<command_run time="Mon Mar 12 08:51:24 EDT 2012">merge()></command_run>
+<menu_button time="Mon Mar 12 08:52:24 EDT 2012">Load Program</menu_button>
+<file_saved time="Mon Mar 12 08:52:25 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/sound/increaseAndDecrease.py</file_saved>
+</file_created>
+<menu_button time="Mon Mar 12 08:52:31 EDT 2012">Load Program</menu_button>
+<file_saved time="Mon Mar 12 08:52:31 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/sound/increaseAndDecrease.py</file_saved>
+</file_created>

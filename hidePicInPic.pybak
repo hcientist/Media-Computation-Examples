@@ -35,7 +35,7 @@ def hidePicInPic (wolf, sheep, wolfFidelity=3, colorChannelWidth=8):
   if getWidth(wolf) > getWidth(sheep) or getHeight(wolf) > getHeight(sheep):
     return None
   
-  sheepFidelity = colorChannelWidth = wolfFidelity
+  sheepFidelity = colorChannelWidth - wolfFidelity
   wolfInSheep = makeEmptyPicture(getWidth(sheep), getHeight(sheep))
   
   # students: we are now in an implied ELSE situation since we are no longer in 
@@ -89,13 +89,28 @@ def hidePicInPic (wolf, sheep, wolfFidelity=3, colorChannelWidth=8):
 
 #3,5
 def getCombinedColor(number, most, number2, least):
-  mostBase = calculateBase(most)
-  leastBase = calculateBase(least)
-  return getMostSigBits(number, mostBase)/mostBase + getMostSigBits(number2, leastBase)
+  return getMostSigBits(number2, least, 8) + getMostSigBits(number, most, 8)>>(8-most)
   
-def getMostSigBits(number, base):
-  return number/base*base # do not be fooled, we're working with ints, so
+def getMostSigBits(number, numBits, width):
+  #base = 2**(width-numBits)
+  shift = (width-numBits)
+  return number>>shift<<shift # do not be fooled, we're working with ints, so
                           # the /base and *base do not cancel out in all cases.
 
-def calculateBase(num):
-  return 2**num
+def getLeastSigBits(number, numBits):
+  base = 2**numBits
+  return (number%base)
+
+#def calculateBase(num):
+#  return 2**num
+  
+def getPicFromPic(image, leastBits=3, width=8):
+  pic = makeEmptyPicture(getWidth(image), getHeight(image))
+  for y in range(getHeight(pic)):
+    for x in range(getWidth(pic)):
+      p = getPixelAt(image,x,y)
+      wolfRed = getLeastSigBits(getRed(p), leastBits)<<(width-leastBits)
+      wolfGreen = getLeastSigBits(getGreen(p), leastBits)<<(width-leastBits)
+      wolfBlue = getLeastSigBits(getBlue(p), leastBits)<<(width-leastBits)
+      setColor(getPixelAt(pic,x,y), makeColor(wolfRed, wolfGreen, wolfBlue))
+  return pic
