@@ -2,9 +2,9 @@
 
 def changePitch(sound, factor):
   l = getLength(sound)
-  result = makeEmptySound(int(l*factor))
+  result = makeEmptySound(int(l/factor))
   for i in range(getLength(result)):
-    setSampleValueAt(result, i, getSampleValueAt(sound, int(i/factor)))
+    setSampleValueAt(result, i, getSampleValueAt(sound, int(i*factor)))
   return result
 
 # volume
@@ -22,4 +22,10 @@ def randomNoiseOfLength(n):
     setSampleValueAt(result, i, random.randint(-32000, 32000))
   return result
   
-#splice/slip/copy
+#splice/clip/copy
+def clip(sound, start, end):
+  result = makeEmptySound(end-start)
+  for sampleNum in range(start,end):
+    print getSampleValueAt(sound, sampleNum)
+    setSampleValueAt(result, sampleNum-start, getSampleValueAt(sound, sampleNum))
+  return result
