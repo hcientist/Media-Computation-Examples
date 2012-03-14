@@ -16,6 +16,7 @@ def merge():
     value = getSampleValueAt(guzdial, source)
     setSampleValueAt(target, index, value)
     index = index + 1
+  # 
   for source in range(0, int(0.1*getSamplingRate(target))):
     setSampleValueAt(target, index, 0)
     index = index + 1
@@ -40,3 +41,19 @@ def normalize(sound):
         louder =  amplification * getSampleValue(s)  
         setSampleValue(s, louder)  
 
+def splicePreamble():
+  file = getMediaPath("preamble10.wav")
+  source = makeSound(file)
+  target = makeSound(file)   # This will be the newly spliced sound
+  targetIndex =17408       #  targetIndex starts at just after "We the" in the new sound
+  for sourceIndex in range( 33414, 40052):  # Where the word "United" is in the sound
+    setSampleValueAt(target, targetIndex,  getSampleValueAt(source, sourceIndex))
+    targetIndex = targetIndex + 1
+  for sourceIndex in range(17408, 26726):   # Where the word "People" is in the sound
+    setSampleValueAt(target , targetIndex, getSampleValueAt(source, sourceIndex))
+    targetIndex = targetIndex + 1
+  for index in range(0, 1000):                     #Stick some quiet space after that
+    setSampleValueAt(target, targetIndex, 0)
+    targetIndex = targetIndex + 1
+  play(target)	                                     #Let's hear and return the result
+  return target

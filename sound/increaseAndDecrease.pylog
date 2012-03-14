@@ -15,4 +15,25 @@
 </file_created>
 <menu_button time="Mon Mar 12 08:52:31 EDT 2012">Load Program</menu_button>
 <file_saved time="Mon Mar 12 08:52:31 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/sound/increaseAndDecrease.py</file_saved>
+<file_opened time="Mon Mar 12 08:53:02 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/sound/increaseAndDecrease.py</file_opened>
+<menu_button time="Mon Mar 12 09:26:05 EDT 2012">Load Program</menu_button>
+<command_run time="Mon Mar 12 09:26:23 EDT 2012">increaseAndDecrease(makeSound(pickAFile())></command_run>
+<command_run time="Mon Mar 12 09:26:43 EDT 2012">increaseAndDecrease(makeSound(pickAFile()))></command_run>
+<command_run time="Mon Mar 12 09:28:23 EDT 2012">daffy = makeSound(pickAFile())></command_run>
+<command_run time="Mon Mar 12 09:28:39 EDT 2012">increaseAndDecrease(daffy)></command_run>
+<command_run time="Mon Mar 12 09:28:47 EDT 2012">play(daffy)></command_run>
+<command_run time="Mon Mar 12 09:28:58 EDT 2012">daffy = makeSound(pickAFile())></command_run>
+<command_run time="Mon Mar 12 09:29:04 EDT 2012">play(daffy)></command_run>
+<command_run time="Mon Mar 12 09:35:53 EDT 2012">merge()></command_run>
+<command_run time="Mon Mar 12 09:36:00 EDT 2012">merge()></command_run>
+<menu_button time="Mon Mar 12 09:37:37 EDT 2012">makeEmptySound</menu_button>
+<menu_button time="Mon Mar 12 09:37:49 EDT 2012">makeEmptySoundBySeconds</menu_button>
+<menu_button time="Mon Mar 12 09:38:09 EDT 2012">Program Area + Interactions Area</menu_button>
+<command_run time="Mon Mar 12 09:43:54 EDT 2012">merge()></command_run>
+<command_run time="Mon Mar 12 09:49:08 EDT 2012">explore(makeSound(pickAFile()))></command_run>
+<menu_button time="Mon Mar 12 09:51:37 EDT 2012">Load Program</menu_button>
+<file_saved time="Mon Mar 12 09:51:39 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/sound/increaseAndDecrease.py</file_saved>
+</file_created>
+<menu_button time="Mon Mar 12 09:52:55 EDT 2012">Load Program</menu_button>
+<file_saved time="Mon Mar 12 09:52:56 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/sound/increaseAndDecrease.py</file_saved>
 </file_created>
