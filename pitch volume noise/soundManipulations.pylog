@@ -166,4 +166,12 @@
 <command_run time="Wed Mar 14 09:52:30 EDT 2012">shorterDaffy = clip(daffy,0,4)></command_run>
 <menu_button time="Wed Mar 14 09:52:34 EDT 2012">Load Program</menu_button>
 <file_saved time="Wed Mar 14 09:52:36 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/pitch volume noise/soundManipulations.py</file_saved>
+<file_opened time="Wed Mar 14 11:19:57 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/pitch volume noise/soundManipulations.py</file_opened>
+<command_run time="Wed Mar 14 11:20:11 EDT 2012">getLength(a)></command_run>
+<command_run time="Wed Mar 14 11:20:34 EDT 2012">z = clip(a, 38,70000)></command_run>
+<menu_button time="Wed Mar 14 11:20:37 EDT 2012">Load Program</menu_button>
+<command_run time="Wed Mar 14 11:20:40 EDT 2012">z = clip(a, 38,70000)></command_run>
+<menu_button time="Wed Mar 14 11:21:09 EDT 2012">Stop</menu_button>
+<menu_button time="Wed Mar 14 11:21:14 EDT 2012">Load Program</menu_button>
+<file_saved time="Wed Mar 14 11:21:15 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/pitch volume noise/soundManipulations.py</file_saved>
 </file_created>

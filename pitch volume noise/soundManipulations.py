@@ -26,6 +26,6 @@ def randomNoiseOfLength(n):
 def clip(sound, start, end):
   result = makeEmptySound(end-start)
   for sampleNum in range(start,end):
-    print getSampleValueAt(sound, sampleNum)
+    #print getSampleValueAt(sound, sampleNum)
     setSampleValueAt(result, sampleNum-start, getSampleValueAt(sound, sampleNum))
   return result

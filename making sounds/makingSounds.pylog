@@ -1,0 +1,127 @@
+<file_created time="Sun Mar 18 21:24:15 EDT 2012">
+<menu_button time="Sun Mar 18 22:21:13 EDT 2012">playNote</menu_button>
+<command_run time="Sun Mar 18 22:21:51 EDT 2012">for i in range(128):
+  playNote(i, 500)></command_run>
+<command_run time="Sun Mar 18 22:23:06 EDT 2012">  playNote(i, 500)></command_run>
+<command_run time="Sun Mar 18 22:23:09 EDT 2012">  playNote(i, 500)></command_run>
+<command_run time="Sun Mar 18 22:23:14 EDT 2012">  playNote(0, 500)></command_run>
+<command_run time="Sun Mar 18 22:23:17 EDT 2012">  playNote(0, 500)></command_run>
+<menu_button time="Sun Mar 18 22:24:16 EDT 2012">getSound</menu_button>
+<menu_button time="Sun Mar 18 22:24:28 EDT 2012">makeSound</menu_button>
+<command_run time="Sun Mar 18 22:25:18 EDT 2012">c4=makeSound(getMediaPath("bassoon-c4.wav"))></command_run>
+<command_run time="Sun Mar 18 22:25:23 EDT 2012">play(c4)></command_run>
+<command_run time="Sun Mar 18 22:25:47 EDT 2012">e4=makeSound(getMediaPath("bassoon-e4.wav"))></command_run>
+<command_run time="Sun Mar 18 22:25:51 EDT 2012">play(e4)></command_run>
+<command_run time="Sun Mar 18 22:25:59 EDT 2012">g4=makeSound(getMediaPath("bassoon-g4.wav"))></command_run>
+<command_run time="Sun Mar 18 22:26:02 EDT 2012">play(g4)></command_run>
+<menu_button time="Sun Mar 18 22:26:23 EDT 2012">Save Program As...</menu_button>
+<file_saved time="Sun Mar 18 22:26:39 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<menu_button time="Sun Mar 18 22:26:41 EDT 2012">Load Program</menu_button>
+<menu_button time="Sun Mar 18 22:26:58 EDT 2012">Load Program</menu_button>
+<menu_button time="Sun Mar 18 22:27:07 EDT 2012">Load Program</menu_button>
+<file_saved time="Sun Mar 18 22:27:08 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<command_run time="Sun Mar 18 22:27:18 EDT 2012">addSoundInto(e4,c4)></command_run>
+<command_run time="Sun Mar 18 22:27:26 EDT 2012">play(c4)></command_run>
+<command_run time="Sun Mar 18 22:27:35 EDT 2012">addSoundInto(g4,c4)></command_run>
+<command_run time="Sun Mar 18 22:27:39 EDT 2012">play(c4)></command_run>
+<command_run time="Sun Mar 18 22:39:50 EDT 2012">play(c4)></command_run>
+<menu_button time="Sun Mar 18 22:40:25 EDT 2012">Load Program</menu_button>
+<file_saved time="Sun Mar 18 22:40:26 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<command_run time="Sun Mar 18 22:40:39 EDT 2012">c4=makeSound(getMediaPath("bassoon-c4.wav"))></command_run>
+<command_run time="Sun Mar 18 22:40:43 EDT 2012">play(c4)></command_run>
+<command_run time="Sun Mar 18 22:40:46 EDT 2012">play(e4)></command_run>
+<command_run time="Sun Mar 18 22:40:49 EDT 2012">play(g4)></command_run>
+<command_run time="Sun Mar 18 22:41:07 EDT 2012">addSoundInto(c4,e4,g4)></command_run>
+<command_run time="Sun Mar 18 22:41:29 EDT 2012">makeChord(c4,e4,g4)></command_run>
+<command_run time="Sun Mar 18 22:41:37 EDT 2012">play(c4)></command_run>
+<command_run time="Sun Mar 18 22:41:49 EDT 2012">getSamplingRate(c4)></command_run>
+<command_run time="Sun Mar 18 22:42:24 EDT 2012">getLength(c4)></command_run>
+<menu_button time="Sun Mar 18 22:42:36 EDT 2012">Load Program</menu_button>
+<file_saved time="Sun Mar 18 22:42:37 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<command_run time="Sun Mar 18 22:42:41 EDT 2012">c4=makeSound(getMediaPath("bassoon-c4.wav"))></command_run>
+<command_run time="Sun Mar 18 22:42:45 EDT 2012">makeChord(c4,e4,g4)></command_run>
+<command_run time="Sun Mar 18 22:42:50 EDT 2012">play(c4)></command_run>
+<menu_button time="Sun Mar 18 22:43:24 EDT 2012">Save Program</menu_button>
+<file_saved time="Sun Mar 18 22:43:24 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<menu_button time="Sun Mar 18 22:43:25 EDT 2012">Load Program</menu_button>
+<command_run time="Sun Mar 18 22:43:28 EDT 2012">play(c4)></command_run>
+<menu_button time="Sun Mar 18 22:43:50 EDT 2012">Load Program</menu_button>
+<file_saved time="Sun Mar 18 22:43:50 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<command_run time="Sun Mar 18 22:44:28 EDT 2012">echo('horseville.wav', 10000)></command_run>
+<command_run time="Sun Mar 18 22:44:45 EDT 2012">echo(getMediaPath('horseville.wav'), 10000)></command_run>
+<menu_button time="Sun Mar 18 22:46:35 EDT 2012">Save Program</menu_button>
+<file_saved time="Sun Mar 18 22:46:35 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<menu_button time="Sun Mar 18 22:46:38 EDT 2012">Load Program</menu_button>
+<command_run time="Sun Mar 18 22:47:08 EDT 2012">echoes(getMediaPath('horseville.wav'), 10000, 5)></command_run>
+<menu_button time="Sun Mar 18 22:47:22 EDT 2012">Save Program</menu_button>
+<file_saved time="Sun Mar 18 22:47:22 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<menu_button time="Sun Mar 18 22:47:22 EDT 2012">Load Program</menu_button>
+<command_run time="Sun Mar 18 22:47:23 EDT 2012">echoes(getMediaPath('horseville.wav'), 10000, 5)></command_run>
+<menu_button time="Sun Mar 18 22:48:14 EDT 2012">Load Program</menu_button>
+<file_saved time="Sun Mar 18 22:48:15 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<command_run time="Sun Mar 18 22:48:26 EDT 2012">echoes(getMediaPath('horseville.wav'), 10000, 5)></command_run>
+<command_run time="Sun Mar 18 22:49:36 EDT 2012">echoes(getMediaPath('horseville.wav'), 10000, 5)></command_run>
+<command_run time="Sun Mar 18 22:50:13 EDT 2012">x=echoes(getMediaPath('horseville.wav'), 10000, 5)></command_run>
+<command_run time="Sun Mar 18 22:50:44 EDT 2012">play(x)></command_run>
+<menu_button time="Sun Mar 18 22:51:40 EDT 2012">Save Program</menu_button>
+<file_saved time="Sun Mar 18 22:51:40 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<menu_button time="Sun Mar 18 22:51:40 EDT 2012">Load Program</menu_button>
+<command_run time="Sun Mar 18 22:51:42 EDT 2012">x=echoes(getMediaPath('horseville.wav'), 10000, 5)></command_run>
+<menu_button time="Sun Mar 18 22:52:16 EDT 2012">Save Program</menu_button>
+<file_saved time="Sun Mar 18 22:52:16 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<menu_button time="Sun Mar 18 22:54:04 EDT 2012">Load Program</menu_button>
+<file_saved time="Sun Mar 18 22:54:05 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<menu_button time="Sun Mar 18 22:54:15 EDT 2012">Load Program</menu_button>
+<file_saved time="Sun Mar 18 22:54:15 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<command_run time="Sun Mar 18 22:54:48 EDT 2012">y = double(makeSound(getMediaPath('horseville.wav'))></command_run>
+<command_run time="Sun Mar 18 22:55:45 EDT 2012">y = double(makeSound(getMediaPath('horseville.wav'))></command_run>
+<menu_button time="Sun Mar 18 22:55:47 EDT 2012">Load Program</menu_button>
+<command_run time="Sun Mar 18 22:55:49 EDT 2012">y = double(makeSound(getMediaPath('horseville.wav'))></command_run>
+<command_run time="Sun Mar 18 22:56:21 EDT 2012">makeSound(getMediaPath('horseville.wav'))></command_run>
+<command_run time="Sun Mar 18 22:56:28 EDT 2012">y = double(makeSound(getMediaPath('horseville.wav'))></command_run>
+<command_run time="Sun Mar 18 22:57:11 EDT 2012">s = makeSound(getMediaPath('horseville.wav'))></command_run>
+<command_run time="Sun Mar 18 22:57:15 EDT 2012">double(s)></command_run>
+<command_run time="Sun Mar 18 23:11:17 EDT 2012">play(makeSound(getMediaPath('pidgeon.wav')))></command_run>
+<command_run time="Sun Mar 18 23:11:26 EDT 2012">getLength(s)></command_run>
+<command_run time="Sun Mar 18 23:11:48 EDT 2012">getLength(makeSound(getMediaPath('pidgeon.wav')))></command_run>
+<command_run time="Sun Mar 18 23:12:01 EDT 2012">getDuration(s)></command_run>
+<command_run time="Sun Mar 18 23:12:13 EDT 2012">getDuration(makeSound(getMediaPath('pidgeon.wav')))></command_run>
+<menu_button time="Sun Mar 18 23:14:27 EDT 2012">Load Program</menu_button>
+<file_saved time="Sun Mar 18 23:14:28 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<menu_button time="Sun Mar 18 23:14:33 EDT 2012">Load Program</menu_button>
+<file_saved time="Sun Mar 18 23:14:35 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<command_run time="Sun Mar 18 23:14:55 EDT 2012">t = makeSound(getMediaPath('pidgeon.wav'))></command_run>
+<command_run time="Sun Mar 18 23:14:58 EDT 2012">half(t)></command_run>
+<command_run time="Sun Mar 18 23:15:31 EDT 2012">echoes(t, 1000, 3)></command_run>
+<command_run time="Sun Mar 18 23:15:47 EDT 2012">echoes('getMediaPath('pidgeon.wav', 1000, 3)></command_run>
+<command_run time="Sun Mar 18 23:15:50 EDT 2012">echoes('getMediaPath('pidgeon.wav'), 1000, 3)></command_run>
+<command_run time="Sun Mar 18 23:15:57 EDT 2012">echoes(getMediaPath('pidgeon.wav'), 1000, 3)></command_run>
+<command_run time="Sun Mar 18 23:16:20 EDT 2012">u=echoes(getMediaPath('pidgeon.wav'), 10000, 3)></command_run>
+<menu_button time="Sun Mar 18 23:18:52 EDT 2012">Load Program</menu_button>
+<file_saved time="Sun Mar 18 23:18:53 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<command_run time="Sun Mar 18 23:19:04 EDT 2012">shift3(t)></command_run>
+<command_run time="Sun Mar 18 23:19:11 EDT 2012">shift3(t, 4)></command_run>
+<menu_button time="Sun Mar 18 23:20:16 EDT 2012">Load Program</menu_button>
+<file_saved time="Sun Mar 18 23:20:17 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<command_run time="Sun Mar 18 23:20:18 EDT 2012">shift3(t, 4)></command_run>
+<command_run time="Sun Mar 18 23:20:50 EDT 2012">shift3(t, .25)></command_run>
+<menu_button time="Sun Mar 18 23:21:01 EDT 2012">Load Program</menu_button>
+<file_saved time="Sun Mar 18 23:21:02 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
