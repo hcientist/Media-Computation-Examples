@@ -1,8 +1,21 @@
+def playAllTheNotes():
+  for currentNote in range(128):
+    playNote(currentNote, 500)
+
+def playRangeOfNotesForTime(start, end, time):
+  for currentNote in range(start, end+1):
+    playNote(currentNote, time)
+
+def playTheseRangesOfNotesForTime(rangesOfNotes, time):
+  for r in range(0,len(rangesOfNotes), 2):
+    playRangeOfNotesForTime(rangesOfNotes[r], rangesOfNotes[r+1], time)
+
 def addSoundInto(sound1, sound2):
   for sampleNmr in range(0, getLength(sound1)):
     sample1 = getSampleValueAt(sound1, sampleNmr)
     sample2 = getSampleValueAt(sound2, sampleNmr)
     setSampleValueAt(sound2, sampleNmr, sample1 + sample2)
+
 def makeChord(sound1, sound2, sound3):
    for index in range(0, getLength(sound1)):
       s1Sample = getSampleValueAt(sound1, index)
@@ -13,6 +26,7 @@ def makeChord(sound1, sound2, sound3):
       if index > 20000:
          s3Sample = getSampleValueAt(sound3, index - 20000)
          setSampleValueAt(sound1, index, s1Sample + s2Sample + s3Sample)
+
 def echo(sndFile, delay):
   s1 = makeSound(sndFile)
   s2 = makeSound(sndFile)
