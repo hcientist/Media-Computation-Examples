@@ -1,4 +1,4 @@
-def sineWave(freq ,amplitude ):
+def sineWave(freq, amplitude ):
   # Get a blank sound
   mySound = makeEmptySoundBySeconds(1)
   # Set sound constant
@@ -39,13 +39,18 @@ def squareWave(freq,amplitude):
     i = i + 1
   return(square)
 
-
 def song():
   playNote(60,200,127)
   playNote(62,500,127)
   playNote(64,800,127)
   playNote(60,600,127)
-  for i in range(1,2):
+  for i in range(1,3):
     playNote(64,120,127)
     playNote(65,120,127)
     playNote(67,60,127)
+
+def addSoundInto(sound1, sound2):
+  for sampleNmr in range(0, getLength(sound1)):
+    sample1 = getSampleValueAt(sound1, sampleNmr)
+    sample2 = getSampleValueAt(sound2, sampleNmr)
+    setSampleValueAt(sound2, sampleNmr, sample1 + sample2)
