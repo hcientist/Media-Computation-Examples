@@ -3,7 +3,7 @@ def sineWave(freq, amplitude ):
   mySound = makeEmptySoundBySeconds(1)
   # Set sound constant
   sr = getSamplingRate(mySound) # sampling rate
-  interval = 1.0/ freq # Make sure it’s floating point
+  interval = 1.0/ freq # Make sure itÕs floating point
   samplesPerCycle = interval * sr # samples per cycle
   maxCycle = 2 * pi
   for pos in range (getLength(mySound )):
@@ -26,7 +26,6 @@ def squareWave(freq,amplitude):
   # we need to switch every half-cycle
   samplesPerHalfCycle = int(samplesPerCycle / 2)
   sampleVal = amplitude
-  s = 1
   i = 1
   for s in range (getLength(square)):
     # if end of a half-cycle
