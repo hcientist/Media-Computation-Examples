@@ -9,6 +9,12 @@ def playRangeOfNotesForTime(start, end, time):
 def playTheseRangesOfNotesForTime(rangesOfNotes, time):
   for r in range(0,len(rangesOfNotes), 2):
     playRangeOfNotesForTime(rangesOfNotes[r], rangesOfNotes[r+1], time)
+    
+#consider how we could write it if the incoming list was a list of lists
+#each element in the input being a list of 2 items, the start and the end
+def playTheseRangesOfNotesForTimes(rangesOfNotes, time):
+  for startEnd in rangesOfNotes:
+    playRangeOfNotesForTime(startEnd[0], rangesOfNotes[1], time)
 
 def addSoundInto(sound1, sound2):
   for sampleNmr in range(0, getLength(sound1)):
@@ -37,20 +43,20 @@ def echo(sndFile, delay):
   play(s1)
   return s1
 
-def echoes(sndFile, delay, num):
-  s1 = makeSound(sndFile)
+def echoes(s1, delay, num):
+  #s1 = makeSound(sndFile)
   ends1 = getLength(s1)
   ends2 = ends1 + (delay * num) 	# convert samples
   s2 = makeEmptySound(ends2)
-  amp = 1.0		 # make amplitude smaller for each echo
+  amp = 1.0  # make amplitude smaller for each echo
   for echoCount in range(0, num):
-    amp = amp * 0.6 	# amplitude 60% smaller each time
+    amp = amp * 0.6 # amplitude 60% smaller each time
     for posns1 in range(0, ends1):
       posns2 = posns1 + (delay*echoCount)
       val1 = getSampleValueAt(s1, posns1)*amp
       val2 = getSampleValueAt(s2, posns2)
       setSampleValueAt(s2, posns2, val1 + val2)
-  play(s2)
+  #play(s2)
   return s2
 
 def double(source):

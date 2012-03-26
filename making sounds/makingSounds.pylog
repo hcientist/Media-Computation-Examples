@@ -162,4 +162,27 @@
 <command_run time="Mon Mar 19 09:53:48 EDT 2012">playTheseRangesOfNotesForTime([3,6,100,107], 500)></command_run>
 <menu_button time="Mon Mar 19 09:55:53 EDT 2012">Save Program</menu_button>
 <file_saved time="Mon Mar 19 09:55:53 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+<file_opened time="Wed Mar 21 08:55:30 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_opened>
+<menu_button time="Wed Mar 21 08:58:37 EDT 2012">getSampleValueAt</menu_button>
+<menu_button time="Wed Mar 21 09:09:29 EDT 2012">Program Area + Interactions Area</menu_button>
+<command_run time="Wed Mar 21 09:10:27 EDT 2012">setMediaPath()></command_run>
+<command_run time="Wed Mar 21 09:10:58 EDT 2012">pidgeon = makeSound('pidgeon.wav')></command_run>
+<command_run time="Wed Mar 21 09:11:15 EDT 2012">daffy = makeSound(pickAFile())></command_run>
+<command_run time="Wed Mar 21 09:11:29 EDT 2012">play(pidgeon)></command_run>
+<command_run time="Wed Mar 21 09:11:43 EDT 2012">play(daffy)></command_run>
+<command_run time="Wed Mar 21 09:14:20 EDT 2012">addSoundInto(daffy, pidgeon)></command_run>
+<menu_button time="Wed Mar 21 09:14:23 EDT 2012">Load Program</menu_button>
+<file_saved time="Wed Mar 21 09:14:25 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+<file_opened time="Sun Mar 25 21:59:00 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_opened>
+<menu_button time="Sun Mar 25 21:59:01 EDT 2012">Load Program</menu_button>
+<command_run time="Sun Mar 25 21:59:14 EDT 2012">s = makeSound(pickAFile())></command_run>
+<command_run time="Sun Mar 25 21:59:25 EDT 2012">l = getLength(s)></command_run>
+<command_run time="Sun Mar 25 21:59:26 EDT 2012">l></command_run>
+<command_run time="Sun Mar 25 21:59:32 EDT 2012">getSamplingRate(s)></command_run>
+<menu_button time="Sun Mar 25 21:59:53 EDT 2012">Load Program</menu_button>
+<file_saved time="Sun Mar 25 21:59:54 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
+</file_created>
+<command_run time="Sun Mar 25 22:00:35 EDT 2012">e = echoes(s, 5612,3)></command_run>
+<menu_button time="Sun Mar 25 22:00:50 EDT 2012">Save Program</menu_button>
+<file_saved time="Sun Mar 25 22:00:50 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/making sounds/makingSounds.py</file_saved>
 </file_created>
