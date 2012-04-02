@@ -6,3 +6,43 @@
 <menu_button time="Mon Apr 02 08:36:36 EDT 2012">Save Program</menu_button>
 <file_saved time="Mon Apr 02 08:36:36 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/text/text.py</file_saved>
 </file_created>
+<menu_button time="Mon Apr 02 08:37:06 EDT 2012">Save Program</menu_button>
+<file_saved time="Mon Apr 02 08:37:06 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/text/text.py</file_saved>
+</file_created>
+<menu_button time="Mon Apr 02 08:41:05 EDT 2012">Save Program</menu_button>
+<file_saved time="Mon Apr 02 08:41:05 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/text/text.py</file_saved>
+</file_created>
+<menu_button time="Mon Apr 02 08:41:20 EDT 2012">Save Program</menu_button>
+<file_saved time="Mon Apr 02 08:41:20 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/text/text.py</file_saved>
+</file_created>
+<menu_button time="Mon Apr 02 08:41:21 EDT 2012">Load Program</menu_button>
+<command_run time="Mon Apr 02 08:41:27 EDT 2012">p = phones()></command_run>
+<command_run time="Mon Apr 02 08:41:29 EDT 2012">p></command_run>
+<menu_button time="Mon Apr 02 08:41:48 EDT 2012">Save Program</menu_button>
+<file_saved time="Mon Apr 02 08:41:48 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/text/text.py</file_saved>
+</file_created>
+<menu_button time="Mon Apr 02 08:41:51 EDT 2012">Load Program</menu_button>
+<command_run time="Mon Apr 02 08:41:52 EDT 2012">p></command_run>
+<command_run time="Mon Apr 02 08:41:54 EDT 2012">p = phones()></command_run>
+<command_run time="Mon Apr 02 08:41:55 EDT 2012">p></command_run>
+<menu_button time="Mon Apr 02 08:42:01 EDT 2012">Undo</menu_button>
+<menu_button time="Mon Apr 02 08:42:02 EDT 2012">Undo</menu_button>
+<menu_button time="Mon Apr 02 08:42:03 EDT 2012">Save Program</menu_button>
+<file_saved time="Mon Apr 02 08:42:03 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/text/text.py</file_saved>
+</file_created>
+<menu_button time="Mon Apr 02 08:42:20 EDT 2012">Save Program</menu_button>
+<file_saved time="Mon Apr 02 08:42:20 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/text/text.py</file_saved>
+</file_created>
+<menu_button time="Mon Apr 02 08:42:21 EDT 2012">Load Program</menu_button>
+<menu_button time="Mon Apr 02 08:42:22 EDT 2012">Load Program</menu_button>
+<command_run time="Mon Apr 02 08:42:25 EDT 2012">p = phones()></command_run>
+<menu_button time="Mon Apr 02 08:42:39 EDT 2012">Save Program</menu_button>
+<file_saved time="Mon Apr 02 08:42:39 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/text/text.py</file_saved>
+</file_created>
+<menu_button time="Mon Apr 02 08:42:41 EDT 2012">Load Program</menu_button>
+<command_run time="Mon Apr 02 08:42:44 EDT 2012">p = phones()></command_run>
+<command_run time="Mon Apr 02 08:42:46 EDT 2012">p></command_run>
+<command_run time="Mon Apr 02 08:43:31 EDT 2012">findPhone('Mary')></command_run>
+<menu_button time="Mon Apr 02 08:43:41 EDT 2012">Save Program</menu_button>
+<file_saved time="Mon Apr 02 08:43:41 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/text/text.py</file_saved>
+</file_created>
