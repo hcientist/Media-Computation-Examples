@@ -13,14 +13,14 @@ it.'''
 
 
 def phonebook():
-  return """
-Mary:893-0234:Realtor:
+  return """Mary:893-0234:Realtor:
 Fred:897-2033:Boulder crusher:
 Barney:234-2342:Professional bowler:"""
 
 def phones():
   phones = phonebook()
   phonelist = phones.split('\n')
+  print phonelist
   newphonelist = []
   for list in phonelist:
     newphonelist.append(list.split(":"))

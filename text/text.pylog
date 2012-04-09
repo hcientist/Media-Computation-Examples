@@ -58,3 +58,19 @@
 <menu_button time="Wed Apr 04 09:04:55 EDT 2012">Save Program</menu_button>
 <file_saved time="Wed Apr 04 09:04:55 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/text/text.py</file_saved>
 </file_created>
+<command_run time="Wed Apr 04 09:12:03 EDT 2012">someWords='a whole burnch of words."></command_run>
+<command_run time="Wed Apr 04 09:12:06 EDT 2012">someWords='a whole burnch of words.'></command_run>
+<command_run time="Wed Apr 04 09:12:17 EDT 2012">someWords.split(' ')></command_run>
+<command_run time="Wed Apr 04 09:12:23 EDT 2012">someWords.split()></command_run>
+<command_run time="Wed Apr 04 09:12:36 EDT 2012">someWords.split('o')></command_run>
+<menu_button time="Wed Apr 04 09:14:57 EDT 2012">Load Program</menu_button>
+<command_run time="Wed Apr 04 09:15:04 EDT 2012">phonebook()></command_run>
+<command_run time="Wed Apr 04 09:15:26 EDT 2012">phones()></command_run>
+<menu_button time="Wed Apr 04 09:15:38 EDT 2012">Save Program</menu_button>
+<file_saved time="Wed Apr 04 09:15:38 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/text/text.py</file_saved>
+</file_created>
+<menu_button time="Wed Apr 04 09:15:39 EDT 2012">Load Program</menu_button>
+<command_run time="Wed Apr 04 09:15:40 EDT 2012">phones()></command_run>
+<menu_button time="Wed Apr 04 09:16:53 EDT 2012">Save Program</menu_button>
+<file_saved time="Wed Apr 04 09:16:53 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/text/text.py</file_saved>
+</file_created>
