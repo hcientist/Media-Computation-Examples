@@ -1,0 +1,10 @@
+<file_created time="Wed Apr 11 09:47:05 EDT 2012">
+<Could not find /Users/tgm/cs-1124/code/miceelephant.v2.pylog, creating a new logfile>
+<menu_button time="Wed Apr 11 09:51:58 EDT 2012">Load Program</menu_button>
+<command_run time="Wed Apr 11 09:52:02 EDT 2012">example()></command_run>
+<menu_button time="Wed Apr 11 09:52:29 EDT 2012">Stop</menu_button>
+<command_run time="Wed Apr 11 09:52:37 EDT 2012">tina></command_run>
+<command_run time="Wed Apr 11 09:52:47 EDT 2012">dir(tina)></command_run>
+<menu_button time="Wed Apr 11 09:55:00 EDT 2012">Save Program As...</menu_button>
+<file_saved time="Wed Apr 11 09:55:09 EDT 2012">/Users/tgm/cs-1124/Media-Computation-Examples/turtles/miceelephant.v2.py</file_saved>
+</file_created>
