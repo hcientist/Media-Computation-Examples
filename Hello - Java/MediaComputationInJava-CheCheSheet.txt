@@ -1,0 +1,33 @@
+FileChooser
+	pickAFile()
+Picture
+	Picture(file)
+	Picture(pic)
+	Picture(w,h,color)
+	getPixels()
+	getWidth()
+	getHeight()
+	show()
+	getPixel(x,y)
+Pixel
+	setRed(r)
+	getRed()
+	...
+	getColor()
+	setColor(c)
+	getX()
+	getY()
+Sound
+	Sound(file)
+	Sound(numSamples, samplingRate)
+	Sound(sound)
+	getSamples()
+	play()
+	blockingPlay()
+	getSamplingRate()
+	getSampleValue()
+ColorChooser
+	pickAColor()
+Color
+	http://docs.oracle.com/javase/1.4.2/docs/api/java/awt/Color.html
+	NO DISTANCE
