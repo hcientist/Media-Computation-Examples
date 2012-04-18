@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TintablePicture()
+comment0.text=\n\ Creates\ a\ new\ TintablePicture\ object.\n
+comment1.params=
+comment1.target=void\ tintPicture()
+comment2.params=tintColor
+comment2.target=void\ tintPicture(java.awt.Color)
+comment3.params=p\ c
+comment3.target=void\ tintPixel(Pixel,\ java.awt.Color)
+comment4.params=c1\ c2
+comment4.target=double\ distance(java.awt.Color,\ java.awt.Color)
+numComments=5

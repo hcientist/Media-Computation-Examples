@@ -11,15 +11,28 @@ import student.*;
  */
 public class MaxRed
 {
+    
     //~ Methods ...............................................................
     public static void main (String[] args)
     {
         Picture p = new Picture(FileChooser.pickAFile());
         p.show();
-        Pixel[] pixels = p.getPixels();
-        for (int i = 0; i < pixels.length; i++)
+        Pixel[ ] pixels = p.getPixels();
+        for (int i = 0; i < pixels.length; i++) // i++ is the same as i = i + 1 which is the same as i+=1 
         {
             pixels[i].setRed(255);
+        }
+        p.repaint();
+    }
+    
+    public void maxGreen()
+    {
+        Picture p = new Picture(FileChooser.pickAFile());
+        p.show();
+        Pixel[ ] pixels = p.getPixels();
+        for (int i = 0; i < pixels.length; i++) // i++ is the same as i = i + 1 which is the same as i+=1 
+        {
+            pixels[i].setGreen(255);
         }
         p.repaint();
     }
