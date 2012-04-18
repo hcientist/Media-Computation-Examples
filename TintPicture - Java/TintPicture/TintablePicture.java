@@ -47,8 +47,31 @@ public class TintablePicture extends Picture
         double newRed = p.getRed()/2 + c.getRed()/2;
         double newGreen = p.getGreen()/2 + c.getGreen()/2;
         double newBlue = p.getBlue()/2 + c.getBlue()/2;
-        System.out.println(newRed + " " + newGreen + " " + newBlue);
+        //System.out.println(newRed + " " + newGreen + " " + newBlue);
         p.setColor(new Color((int)newRed, (int)newGreen, (int)newBlue));
+    }
+    
+    public void tintPictureConditionally()
+    {
+        Color replacingColor = ColorChooser.pickAColor();
+        Color replacedColor = ColorChooser.pickAColor();
+        double diff = SimpleInput.getNumber("what difference in colors do you want to replace?");
+        this.tintPictureConditionally(replacingColor, replacedColor, (int)diff);
+    }
+    public void tintPictureConditionally(Color replacingColor, Color replacedColor, int difference)
+    {
+        // we want to check the distance of the color of the current pixel to the replaced color
+        // if it's smaller than difference then tint the pixel
+        Pixel[] pixels = this.getPixels();
+        for (int i = 0; i < pixels.length; i++)
+        {
+            double d = this.distance(pixels[i].getColor(), replacedColor);
+            if (d <= difference)
+            {
+                this.tintPixel(pixels[i], replacingColor);
+            }
+        }
+        this.repaint();
     }
 
     //~ Methods ...............................................................
