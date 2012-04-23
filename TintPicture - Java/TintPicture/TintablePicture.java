@@ -29,6 +29,11 @@ public class TintablePicture extends Picture
         this.load(FileChooser.pickAFile());
     }
     
+    public TintablePicture(String theFilePath)
+    {
+        super(theFilePath);
+    }
+    
     public void tintPicture()
     {
         this.tintPicture(ColorChooser.pickAColor());
