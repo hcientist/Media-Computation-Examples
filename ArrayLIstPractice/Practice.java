@@ -39,6 +39,11 @@ public class Practice
         ArrayList<Integer> listOfNumbers = new ArrayList<Integer>();
         listOfNumbers.add(3);
         listOfNumbers.add(97);
+        for (Integer num : listOfNumbers)
+        {
+            System.out.println(num);
+        }
+//         System.out.println(listOfNumbers.get(0));
         //System.out.println(listOfNumbers);
         ArrayList<ArrayList<Integer>> wordList = new ArrayList<ArrayList<Integer>>();
         wordList.add(listOfNumbers);
@@ -46,7 +51,7 @@ public class Practice
         
         ArrayList<ArrayList<ArrayList<Integer>>> puzzle = new ArrayList<ArrayList<ArrayList<Integer>>>();
         puzzle.add(wordList);
-        System.out.println(puzzle);
+//         System.out.println(puzzle);
     }
     
     

@@ -1,3 +1,22 @@
 #BlueJ package file
-#Mon Apr 23 09:34:20 EDT 2012
+package.editor.height=400
+package.editor.width=560
+package.editor.x=139
+package.editor.y=102
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
 project.charset=UTF-8
+target1.editor.height=878
+target1.editor.width=1227
+target1.editor.x=53
+target1.editor.y=22
+target1.height=50
+target1.name=Practice
+target1.naviview.expanded=true
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=80
+target1.x=70
+target1.y=10
