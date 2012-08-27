@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WordPuzzle()
+comment0.text=\n\ Creates\ a\ new\ WordPuzzle\ object.\n
+comment1.params=message
+comment1.target=WordPuzzle(java.lang.String)
+comment10.params=s\ n
+comment10.target=java.lang.String\ padLeft(java.lang.String,\ int)
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=java.lang.String\ getMessage()
+comment3.params=message
+comment3.target=void\ setMessage(java.lang.String)
+comment4.params=
+comment4.target=getPuzzle()
+comment5.params=message
+comment5.target=void\ setFromMessage(java.lang.String)
+comment6.params=chr
+comment6.target=int\ ord(char)
+comment7.params=message
+comment7.target=puzzleFromMessage(java.lang.String)
+comment8.params=chrVal
+comment8.target=char\ chr(int)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=12

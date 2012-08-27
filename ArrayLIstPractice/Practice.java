@@ -31,6 +31,7 @@ public class Practice
     //~ Methods ...............................................................
     public static void main(String[] args)
     {
+        String message = "";
         ArrayList<String> listOfWords = new ArrayList<String>();
         listOfWords.add("hello");
         listOfWords.add("world");

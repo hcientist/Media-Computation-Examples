@@ -1,16 +1,16 @@
 #BlueJ package file
 package.editor.height=400
 package.editor.width=560
-package.editor.x=119
-package.editor.y=82
+package.editor.x=1440
+package.editor.y=86
 package.numDependencies=0
 package.numTargets=1
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
 target1.editor.height=878
-target1.editor.width=1226
-target1.editor.x=54
+target1.editor.width=1280
+target1.editor.x=132
 target1.editor.y=22
 target1.height=50
 target1.name=WordPuzzle

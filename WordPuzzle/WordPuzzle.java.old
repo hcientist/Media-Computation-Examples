@@ -13,12 +13,11 @@ import java.util.Random;
 public class WordPuzzle
 {
     //~ Instance/static variables .............................................
-      private String message; 
-      private ArrayList<ArrayList<ArrayList<Integer>>> puzzle; 
+    private String message;
+    private ArrayList<ArrayList<ArrayList<Integer>>> puzzle;
 
     //~ Constructor ...........................................................
-       
-       
+
     // ----------------------------------------------------------
     /**
      * Creates a new WordPuzzle object.
@@ -30,67 +29,54 @@ public class WordPuzzle
 
     public WordPuzzle(String message)
     {
-       
-        
-        this.setFromMessage(message); 
-        
+        //if we're only given the message, we'll have to figure out the puzzle so that we can set that also
+        setFromMessage(message);
     }
     
     public WordPuzzle(ArrayList<ArrayList<ArrayList<Integer>>> puzzle)
     {
-       
-         
-         this.setFromPuzzle(puzzle); 
         
     }
     
     public WordPuzzle(String message, ArrayList<ArrayList<ArrayList<Integer>>> puzzle)
-    {   
-        this.message = message; 
-        this.puzzle = puzzle ; 
+    {
         
     }
 
     public WordPuzzle(ArrayList<ArrayList<ArrayList<Integer>>> puzzle, String message)
-    {  
-        this.puzzle = puzzle; 
-        this.message = message; 
+    {
         
-        
-    }  
+    }
     
     public String getMessage()
     {
-        return this.message; 
+        
     }
 
     public void setMessage(String message)
     {
-          this.setFromMessage(message); 
+        
     }
 
     public ArrayList<ArrayList<ArrayList<Integer>>> getPuzzle()
     {
-       return this.puzzle; 
+        
     }
 
     public void setPuzzle(ArrayList<ArrayList<ArrayList<Integer>>> puzzle)
     {
-        this.setFromPuzzle(puzzle) ; 
+        
     }
 
     public void setFromMessage(String message)
     {
-        this.message = message; 
-        puzzle = this.puzzleFromMessage(message); 
-        this.puzzle = puzzle; 
+        //set the message, calculate the puzzle, and set the puzzle
+        this.setMessage(message);
+        this.puzzle = puzzleFromMessage(message);
     }
     
     public void setFromPuzzle(ArrayList<ArrayList<ArrayList<Integer>>> puzzle)
-    { 
-        this.puzzle = puzzle; 
-        message = this.messageFromPuzzle(puzzle); 
-        this.message  = message; 
+    {
         
     }
 
@@ -100,89 +86,73 @@ public class WordPuzzle
     }
     
     public String messageFromPuzzle(ArrayList<ArrayList<ArrayList<Integer>>> puzzle)
-     {
+    {
         //create an empty string to hold the letters of the message that you 
         //figure out
+       
+        
+        //loop over all of the words in puzzle
+        
+            //make an ArrayList<ArrayList<Integer>> to represent the current word
             
-            String message = ""; 
-            for(Integer i = 0 ; i <puzzle.size(); ++i) { 
-               
-                 ArrayList<ArrayList<Integer>> wordPuzzle = puzzle.get(i); 
-                 String word = "";  
-                 
-                 
-                 
-                 
-                 for(Integer p = 0; p < wordPuzzle.size(); ++p) {
-                        
-                        ArrayList<Integer>  pair = wordPuzzle.get(p);  
-                        int letterNumber = pair.get(0) + pair.get(1); 
-                        
-                        char letter = (char) letterNumber; 
-                        word= word + letter; 
-                        
-                }
+            //if this is not the first time through this loop, add a space to message
+            //before you add the new characters.
            
+            //for each character in the current word
+            
+                //get the pair of numbers
                 
-                message =   message + " "  + word ; 
+                //add them 
+                //convert them to a character using chr
+                //add the character to your message
                
-            }   
-              String finalMessage = message.trim(); 
-        return  finalMessage; 
-        
-        
+        //make sure you return the message
     }
 
     public ArrayList<ArrayList<ArrayList<Integer>>> puzzleFromMessage(String message)
-     {
-        
-        /*# Do any work to initialize your class here. *///this create a random number generator, if you do 
+    {
+        //this create a random number generator, if you do 
         //r.nextInt(someNumber)
         //then it will give you an integers from 0-someNumber
         Random r = new Random();
 
         // this will be an array of Strings with each element being one of the
         //words from your message
-        String[] words = message.split(" "); 
-       
-         
+        String[] words = message.split(" ");
         
-        ArrayList<ArrayList<ArrayList<Integer>>> puzzle  =  new  ArrayList<ArrayList<ArrayList<Integer>>>();
         //create a new ArrayList<ArrayList<ArrayList<Integer>>> to hold your final result
+        ArrayList<ArrayList<ArrayList<Integer>>> result = new ArrayList<ArrayList<ArrayList<Integer>>>();
         
         //create a ArrayList<ArrayList<Integer>> to hold the pairs that belong to the current word in the message
+        ArrayList<ArrayList<Integer>>word;// = new ArrayList<ArrayList<Integer>>();
         
-        //loop over all the words in words 
-          for (Integer i =0;i <  words.length; ++i) {  
-              String word; 
-              word = words[i]; 
-              ArrayList<ArrayList<Integer>> wordPairs = new ArrayList<ArrayList<Integer>>();
-              
-              for(Integer l = 0; l <word.length(); ++l) { 
-                 
-                 ArrayList<Integer> letterNumber = new  ArrayList<Integer>(); 
-                 
-                 Integer number = (int)word.charAt(l); 
-                 Integer firstNumber = r.nextInt(number); 
-                 Integer secondNumber = number -firstNumber; 
-                 letterNumber.add(firstNumber) ; 
-                 letterNumber.add(secondNumber) ; 
-                 wordPairs.add(letterNumber); 
-                 
-                 
-               }
-               puzzle.add(wordPairs); 
-              
-               
-          
+        //loop over all the words in words
+        for (String currentWord : words) {
+            //set your ArrayList<ArrayList<Integer>> to a new ArrayList<ArrayList<Integer>>
+            word = new ArrayList<ArrayList<Integer>>();
+            
+            //declare a ArrayList<Integer> to hold the pair of integers for the current letter
+            ArrayList<Integer>pair = new ArrayList<Integer>();
+            
+            //loop over all the letters in the current word
+            for (int i = 0 ; i< currentWord.length(); i++) 
+            {
+                char currentChar = currentWord.charAt(i);
+                //set your ArrayList<Integer> to a new (empty) ArrayList<Integer>
+                
+                //calculate the 2 numbers that should be added for the current letter
+                //(using r.getNextInt(someNumber))
+
+
+                //add the first number to your ArrayList<Integer>
+
+
+                //add the 2nd number to your ArrayList<Integer>
+
+                //add your ArrayList<Integer> to your ArrayList<ArrayList<Integer>> 
+            //add your ArrayList<ArrayList<Integer>> to your ArrayList<ArrayList<ArrayList<Integer>>>
+        //don't forget to return your results
     }
-      
-      
-      return puzzle; 
-
-    //~ Methods ...............................................................
-
-}
 
     public static char chr(int chrVal)
     {
@@ -217,7 +187,7 @@ public class WordPuzzle
         return String.format("%1$#" + n + "s", s);   
     }
 
- 
+
     public static void main(String[] args)
     {
         ArrayList<ArrayList<ArrayList<Integer>>> puzzle = new ArrayList<ArrayList<ArrayList<Integer>>>();
@@ -340,8 +310,8 @@ public class WordPuzzle
         WordPuzzle wp = new WordPuzzle();
         
         WordPuzzle wp2 = new WordPuzzle(puzzle);
-        System.out.println(wp2); 
+        System.out.println(wp2);
         System.out.println(wp.messageFromPuzzle(puzzle));
 
     }
-} 
+}
